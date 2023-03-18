@@ -35,12 +35,21 @@
   --dl-space-space-fourunits: 64px;
   --dl-space-space-threeunits: 48px;
   --dl-color-secondary_grey-300: rgba(244, 247, 254, 1);
+  --dl-color-secondary_grey-400: rgba(233, 237, 247, 1);
   --dl-color-secondary_grey-600: rgba(163, 174, 208, 1);
+  --dl-color-secondary_grey-700: rgba(112, 126, 174, 1);
+  --dl-color-secondary_grey-900: rgba(43, 54, 116, 1);
   --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-secondary-primarywhite: rgba(255, 255, 255, 1);
+  --dl-color-secondary_darkgrey-500: rgba(142, 154, 185, 1);
+  --dl-color-gradients-gradientstyle1: rgba(133, 140, 255, 1);
   --dl-color-primary_purpleblue-500primary: rgba(66, 24, 255, 1);
   --dl-color-primary_purpleblue-500primary1: rgba(66, 24, 255, 1);
+  --dl-color-primary_purpleblue-500primary2: rgba(66, 24, 255, 1);
   --dl-color-primary_purpleblue-500primarycolor: rgba(66, 24, 255, 1);
   --dl-color-primary_purpleblue-500primarycolor1: rgba(66, 24, 255, 1);
+  --dl-color-primary_purpleblue-500primarycolor2: rgba(66, 24, 255, 1);
+  --dl-color-secondary_darkgrey-500placeholdercolor: rgba(142, 154, 185, 1);
 }
 .button {
   color: var(--dl-color-gray-black);
@@ -99,4 +108,53 @@
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
+}
+.DisplayTextSmallDisplaySmall\(Bold\) {
+  font-size: 34px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.BodyTextExtra-LargeBold {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.BodyTextSmallMedium {
+  font-size: 14px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.DisplayTextExtra-SmallBold {
+  font-size: 24px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.BodyTextExtra-SmallMedium {
+  font-size: 12px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyTextSmallBodySmall\(Medium\) {
+  font-size: 14px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.BodyTextMediumBold {
+  font-size: 16px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
 }
