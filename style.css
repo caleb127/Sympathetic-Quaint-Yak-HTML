@@ -38,7 +38,9 @@
   --dl-color-secondary_grey-600: rgba(163, 174, 208, 1);
   --dl-space-space-oneandhalfunits: 24px;
   --dl-color-primary_purpleblue-500primary: rgba(66, 24, 255, 1);
+  --dl-color-primary_purpleblue-500primary1: rgba(66, 24, 255, 1);
   --dl-color-primary_purpleblue-500primarycolor: rgba(66, 24, 255, 1);
+  --dl-color-primary_purpleblue-500primarycolor1: rgba(66, 24, 255, 1);
 }
 .button {
   color: var(--dl-color-gray-black);

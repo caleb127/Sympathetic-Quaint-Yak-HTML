@@ -8,15 +8,14 @@
   justify-content: center;
 }
 .adminsignin-sign-in {
-  width: inherit;
-  height: 1000;
+  width: 100%;
+  height: 1000px;
   display: flex;
   overflow: hidden;
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
-  padding-right: 512px;
   background-color: rgba(255, 255, 255, 1);
 }
 .adminsignin-backto-dashboard {
@@ -105,7 +104,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text02 {
+.adminsignin-text01 {
   top: 342px;
   color: rgba(43, 54, 116, 1);
   height: auto;
@@ -120,11 +119,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminsignin-text03 {
+.adminsignin-text02 {
   color: rgba(43, 54, 116, 1);
   font-weight: 400;
 }
-.adminsignin-text04 {
+.adminsignin-text03 {
   color: rgba(112, 126, 174, 1);
 }
 .adminsignin-button {
@@ -158,11 +157,11 @@
   align-items: center;
   flex-shrink: 0;
   border-color: transparent;
-  border-radius: 16px;
+  border-radius: 50px;
   justify-content: center;
   background-color: var(--dl-color-primary_purpleblue-500primarycolor);
 }
-.adminsignin-text06 {
+.adminsignin-text05 {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 14px;
@@ -217,7 +216,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text08 {
+.adminsignin-text07 {
   left: 29px;
   color: rgba(43, 54, 116, 1);
   height: auto;
@@ -273,7 +272,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text10 {
+.adminsignin-text09 {
   color: var(--dl-color-primary_purpleblue-500primary);
   height: auto;
   position: absolute;
@@ -307,7 +306,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text12 {
+.adminsignin-text11 {
   color: rgba(43, 54, 116, 1);
   height: auto;
   position: absolute;
@@ -321,7 +320,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminsignin-text13 {
+.adminsignin-text12 {
   color: rgba(43, 54, 116, 1);
 }
 .adminsignin-large-input {
@@ -357,7 +356,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text14 {
+.adminsignin-text13 {
   top: 17px;
   left: 24px;
   width: 107px;
@@ -379,7 +378,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text15 {
+.adminsignin-text14 {
   color: var(--dl-color-secondary_grey-600);
   height: auto;
   position: absolute;
@@ -420,7 +419,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text17 {
+.adminsignin-text16 {
   color: rgba(43, 54, 116, 1);
   height: auto;
   position: absolute;
@@ -434,7 +433,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminsignin-text18 {
+.adminsignin-text17 {
   color: rgba(43, 54, 116, 1);
 }
 .adminsignin-large-input1 {
@@ -470,7 +469,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text19 {
+.adminsignin-text18 {
   top: 17px;
   left: 24px;
   width: 136px;
@@ -492,7 +491,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text20 {
+.adminsignin-text19 {
   color: var(--dl-color-secondary_grey-600);
   height: auto;
   position: absolute;
@@ -526,7 +525,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text22 {
+.adminsignin-text21 {
   left: 198px;
   color: rgba(163, 174, 208, 1);
   height: auto;
@@ -637,7 +636,7 @@
   height: 8px;
   position: absolute;
 }
-.adminsignin-text24 {
+.adminsignin-text23 {
   top: 14px;
   left: 156px;
   color: rgba(43, 54, 116, 1);
@@ -673,7 +672,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text26 {
+.adminsignin-text25 {
   color: rgba(43, 54, 116, 1);
   height: auto;
   position: absolute;
@@ -687,7 +686,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminsignin-text28 {
+.adminsignin-text27 {
   top: 64px;
   left: 1px;
   color: var(--dl-color-secondary_grey-600);
@@ -702,6 +701,59 @@
   line-height: 100%;
   font-stretch: normal;
   text-decoration: none;
+}
+.adminsignin-image {
+  top: 0px;
+  left: 955px;
+  width: 965px;
+  height: 1152px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+  background-image: linear-gradient(150deg, rgba(133, 140, 255, 1) 0%, rgba(67, 24, 255, 1) 100%);
+}
+.adminsignin-background54 {
+  top: -34px;
+  right: -1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.adminsignin-horizon-logo {
+  top: 211px;
+  left: 343.19744873046875px;
+  width: 279.6051025390625px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 374.99957275390625px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
 }
 .adminsignin-footer {
   top: 1088px;
@@ -725,7 +777,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminsignin-text30 {
+.adminsignin-text29 {
   color: var(--dl-color-secondary_grey-600);
   height: auto;
   position: absolute;
@@ -739,10 +791,10 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminsignin-text31 {
+.adminsignin-text30 {
   font-weight: 500;
 }
-.adminsignin-text33 {
+.adminsignin-text32 {
   left: 935px;
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -757,7 +809,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminsignin-text35 {
+.adminsignin-text34 {
   left: 1057px;
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -772,7 +824,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminsignin-text37 {
+.adminsignin-text36 {
   left: 1149px;
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -787,7 +839,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminsignin-text39 {
+.adminsignin-text38 {
   left: 1274px;
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -806,7 +858,6 @@
   top: 1062px;
   left: 1830px;
   width: 60px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 60px;
   display: flex;
   padding: 0;
@@ -825,21 +876,25 @@
   justify-content: flex-start;
   background-color: transparent;
 }
+.adminsignin-ellipse104 {
+  top: 0px;
+  left: 0px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border-color: rgba(106, 83, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.adminsignin-moonsolid1 {
+  top: 21px;
+  left: 21px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
 @media(max-width: 1200px) {
   .adminsignin-container {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  .adminsignin-sign-in {
-    width: 100%;
-    margin-left: 72px;
-    margin-right: 0px;
-  }
-}
-@media(max-width: 767px) {
-  .adminsignin-sign-in {
     width: 100%;
     height: 100%;
     max-width: 100%;
