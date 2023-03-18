@@ -33,11 +33,12 @@
   flex-direction: column;
 }
 .adminpage-main-dashboard {
-  width: 100%;
-  height: 1732px;
+  width: 1350px;
+  height: 1300px;
   display: flex;
   overflow: hidden;
   position: relative;
+  overflow-y: hidden;
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
@@ -111,7 +112,7 @@
   flex-direction: column;
 }
 .adminpage-frame11 {
-  width: 1150;
+  width: 2000px;
   height: 90;
   display: flex;
   padding: 0 20px;
@@ -225,229 +226,6 @@
   height: 33px;
   position: absolute;
 }
-.adminpage-small-earnings1 {
-  width: 248px;
-  height: 97px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-  margin-right: 20px;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 1);
-}
-.adminpage-text009 {
-  top: 20px;
-  left: 91.2109375px;
-  width: 144px;
-  height: 54px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.adminpage-text010 {
-  color: rgba(163, 174, 208, 1);
-  width: 117px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: left;
-  font-family: DM Sans;
-  font-weight: 500;
-  line-height: 24px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.adminpage-text012 {
-  left: -12px;
-  color: rgba(43, 54, 116, 1);
-  width: 144px;
-  bottom: -21px;
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  align-self: auto;
-  font-style: Bold;
-  text-align: left;
-  font-family: DM Sans;
-  font-weight: 700;
-  line-height: 32px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.adminpage-icon02 {
-  top: 20px;
-  left: 17px;
-  width: 56px;
-  height: 56px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.adminpage-shadow1 {
-  top: 0px;
-  left: 0px;
-  width: 56px;
-  height: 56px;
-  position: absolute;
-  border-color: transparent;
-}
-.adminpage-icon03 {
-  top: 11.7242431640625px;
-  left: 11.5263671875px;
-  width: 33px;
-  height: 33px;
-  position: absolute;
-}
-.adminpage-small-sales {
-  width: 249px;
-  height: 95px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-  margin-right: 20px;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 1);
-}
-.adminpage-text014 {
-  top: 17px;
-  left: 23px;
-  width: 144px;
-  height: 47px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.adminpage-text015 {
-  color: rgba(163, 174, 208, 1);
-  width: 117px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: left;
-  font-family: DM Sans;
-  font-weight: 500;
-  line-height: 24px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.adminpage-text017 {
-  top: 16px;
-  color: rgba(43, 54, 116, 1);
-  width: 144px;
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  align-self: auto;
-  font-style: Bold;
-  text-align: left;
-  font-family: DM Sans;
-  font-weight: 700;
-  line-height: 32px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.adminpage-precentage {
-  top: 67px;
-  left: 23px;
-  width: 123px;
-  height: 14px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.adminpage-text019 {
-  color: rgba(5, 205, 153, 1);
-  width: 31px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  align-self: auto;
-  font-style: Bold;
-  text-align: left;
-  font-family: DM Sans;
-  font-weight: 700;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.adminpage-text021 {
-  left: 35px;
-  color: rgba(163, 174, 208, 1);
-  width: 88px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: DM Sans;
-  font-weight: 400;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
 .adminpage-small-balance {
   width: 249px;
   height: 97px;
@@ -483,7 +261,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text023 {
+.adminpage-text009 {
   color: rgba(163, 174, 208, 1);
   height: auto;
   position: absolute;
@@ -497,7 +275,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-text025 {
+.adminpage-text011 {
   top: 22px;
   color: rgba(43, 54, 116, 1);
   width: 93px;
@@ -563,7 +341,7 @@
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 1);
 }
-.adminpage-text027 {
+.adminpage-text013 {
   top: 24px;
   left: 91px;
   width: 144px;
@@ -585,7 +363,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text028 {
+.adminpage-text014 {
   left: 0.2109375px;
   color: rgba(163, 174, 208, 1);
   width: 117px;
@@ -601,7 +379,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-text030 {
+.adminpage-text016 {
   top: 22.5791015625px;
   color: rgba(43, 54, 116, 1);
   width: 144px;
@@ -614,6 +392,108 @@
   font-family: DM Sans;
   font-weight: 700;
   line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.adminpage-icon02 {
+  top: 20px;
+  left: 17px;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.adminpage-shadow1 {
+  top: 0px;
+  left: 0px;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  border-color: transparent;
+}
+.adminpage-icon03 {
+  top: 14px;
+  left: 14px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.adminpage-small-earnings1 {
+  width: 248px;
+  height: 97px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.adminpage-text018 {
+  top: 20px;
+  left: 91.2109375px;
+  width: 144px;
+  height: 54px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.adminpage-text019 {
+  color: rgba(163, 174, 208, 1);
+  width: 117px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.adminpage-text021 {
+  top: 23px;
+  color: rgba(43, 54, 116, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: DM Sans;
+  font-weight: 700;
+  line-height: 32px;
   font-stretch: normal;
   text-decoration: none;
 }
@@ -648,108 +528,6 @@
   border-color: transparent;
 }
 .adminpage-icon05 {
-  top: 14px;
-  left: 14px;
-  width: 28px;
-  height: 28px;
-  position: absolute;
-}
-.adminpage-small-earnings2 {
-  width: 248px;
-  height: 97px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 1);
-}
-.adminpage-text032 {
-  top: 20px;
-  left: 91.2109375px;
-  width: 144px;
-  height: 54px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.adminpage-text033 {
-  color: rgba(163, 174, 208, 1);
-  width: 117px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: left;
-  font-family: DM Sans;
-  font-weight: 500;
-  line-height: 24px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.adminpage-text035 {
-  top: 23px;
-  color: rgba(43, 54, 116, 1);
-  width: 144px;
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  align-self: auto;
-  font-style: Bold;
-  text-align: left;
-  font-family: DM Sans;
-  font-weight: 700;
-  line-height: 32px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.adminpage-icon06 {
-  top: 20px;
-  left: 17px;
-  width: 56px;
-  height: 56px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.adminpage-shadow3 {
-  top: 0px;
-  left: 0px;
-  width: 56px;
-  height: 56px;
-  position: absolute;
-  border-color: transparent;
-}
-.adminpage-icon07 {
   top: 15px;
   left: 15px;
   width: 26px;
@@ -789,7 +567,7 @@
   align-items: flex-start;
   border-color: transparent;
 }
-.adminpage-text037 {
+.adminpage-text023 {
   color: rgba(163, 174, 208, 1);
   width: 54px;
   height: auto;
@@ -806,7 +584,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-text039 {
+.adminpage-text025 {
   left: 97.82500457763672px;
   color: rgba(163, 174, 208, 1);
   width: 54px;
@@ -824,7 +602,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-text041 {
+.adminpage-text027 {
   left: 195.65000915527344px;
   color: rgba(163, 174, 208, 1);
   width: 54px;
@@ -842,7 +620,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-text043 {
+.adminpage-text029 {
   left: 293.4749755859375px;
   color: rgba(163, 174, 208, 1);
   width: 54px;
@@ -860,7 +638,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-text045 {
+.adminpage-text031 {
   left: 391.3000183105469px;
   color: rgba(163, 174, 208, 1);
   width: 54px;
@@ -878,7 +656,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-text047 {
+.adminpage-text033 {
   left: 489.125px;
   color: rgba(163, 174, 208, 1);
   width: 54px;
@@ -917,7 +695,7 @@
   height: 24px;
   position: absolute;
 }
-.adminpage-text049 {
+.adminpage-text035 {
   top: 127.89306640625px;
   left: 31.30419921875px;
   color: rgba(163, 174, 208, 1);
@@ -936,7 +714,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-text051 {
+.adminpage-text037 {
   top: 91px;
   left: 31.30419921875px;
   color: rgba(43, 54, 116, 1);
@@ -955,7 +733,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-precentage1 {
+.adminpage-precentage {
   top: 130.8843994140625px;
   left: 114px;
   width: 67.08074951171875px;
@@ -977,7 +755,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text053 {
+.adminpage-text039 {
   left: 20.124221801757812px;
   color: rgba(5, 205, 153, 1);
   width: 47px;
@@ -1022,7 +800,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text055 {
+.adminpage-text041 {
   top: 0.997100830078125px;
   left: 22.360248565673828px;
   color: rgba(5, 205, 153, 1);
@@ -1081,7 +859,7 @@
   height: 18px;
   position: absolute;
 }
-.adminpage-text057 {
+.adminpage-text043 {
   top: 12px;
   left: 36px;
   color: rgba(163, 174, 208, 1);
@@ -1113,7 +891,7 @@
   border-radius: 88px;
   background-color: rgba(255, 255, 255, 1);
 }
-.adminpage-text059 {
+.adminpage-text045 {
   top: 29px;
   left: 31px;
   color: rgba(27, 37, 89, 1);
@@ -1232,7 +1010,7 @@
   justify-content: center;
   background-color: rgba(244, 247, 254, 1);
 }
-.adminpage-text061 {
+.adminpage-text047 {
   top: 8px;
   left: 16px;
   width: 55px;
@@ -1241,7 +1019,7 @@
   align-items: center;
   border-color: transparent;
 }
-.adminpage-text062 {
+.adminpage-text048 {
   color: rgba(66, 24, 255, 1);
   height: auto;
   font-size: 14px;
@@ -1296,7 +1074,7 @@
   border-radius: 8px;
   justify-content: center;
 }
-.adminpage-text064 {
+.adminpage-text050 {
   top: 8px;
   left: 16px;
   width: 54px;
@@ -1305,7 +1083,7 @@
   align-items: center;
   border-color: transparent;
 }
-.adminpage-text065 {
+.adminpage-text051 {
   color: rgba(43, 54, 116, 1);
   height: auto;
   font-size: 14px;
@@ -1362,7 +1140,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text067 {
+.adminpage-text053 {
   top: 8px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1395,7 +1173,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text069 {
+.adminpage-text055 {
   top: 8px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1428,7 +1206,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text071 {
+.adminpage-text057 {
   top: 8px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1461,7 +1239,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text073 {
+.adminpage-text059 {
   top: 8px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1494,7 +1272,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text075 {
+.adminpage-text061 {
   top: 8px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1527,7 +1305,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text077 {
+.adminpage-text063 {
   top: 8px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1560,7 +1338,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text079 {
+.adminpage-text065 {
   top: 8px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1593,7 +1371,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text081 {
+.adminpage-text067 {
   top: 10px;
   left: 17px;
   color: rgba(163, 174, 208, 1);
@@ -1625,7 +1403,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text083 {
+.adminpage-text069 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -1658,7 +1436,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text085 {
+.adminpage-text071 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -1699,7 +1477,7 @@
   position: absolute;
   border-color: transparent;
 }
-.adminpage-text087 {
+.adminpage-text073 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1732,7 +1510,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text088 {
+.adminpage-text074 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1765,7 +1543,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text089 {
+.adminpage-text075 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1798,7 +1576,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text090 {
+.adminpage-text076 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1831,7 +1609,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text091 {
+.adminpage-text077 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1864,7 +1642,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text092 {
+.adminpage-text078 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1897,7 +1675,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text093 {
+.adminpage-text079 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1930,7 +1708,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text094 {
+.adminpage-text080 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1963,7 +1741,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text095 {
+.adminpage-text081 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -1996,7 +1774,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text096 {
+.adminpage-text082 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2029,7 +1807,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text098 {
+.adminpage-text084 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2062,7 +1840,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text100 {
+.adminpage-text086 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2095,7 +1873,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text102 {
+.adminpage-text088 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2128,7 +1906,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text104 {
+.adminpage-text090 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2161,7 +1939,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text106 {
+.adminpage-text092 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2194,7 +1972,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text108 {
+.adminpage-text094 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2227,7 +2005,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text110 {
+.adminpage-text096 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2260,7 +2038,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text112 {
+.adminpage-text098 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2293,7 +2071,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text114 {
+.adminpage-text100 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2326,7 +2104,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text116 {
+.adminpage-text102 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2359,7 +2137,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text118 {
+.adminpage-text104 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2392,7 +2170,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text120 {
+.adminpage-text106 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2425,7 +2203,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text122 {
+.adminpage-text108 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2458,7 +2236,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text124 {
+.adminpage-text110 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2491,7 +2269,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text126 {
+.adminpage-text112 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2524,7 +2302,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text128 {
+.adminpage-text114 {
   top: 10px;
   left: 12px;
   color: rgba(43, 54, 116, 1);
@@ -2566,7 +2344,7 @@
   position: absolute;
   border-color: transparent;
 }
-.adminpage-text130 {
+.adminpage-text116 {
   top: 10px;
   left: 12px;
   color: rgba(255, 255, 255, 1);
@@ -2599,7 +2377,7 @@
   border-color: transparent;
   background-color: rgba(244, 247, 254, 1);
 }
-.adminpage-text132 {
+.adminpage-text118 {
   top: 10px;
   left: 12px;
   color: rgba(66, 24, 255, 1);
@@ -2632,7 +2410,7 @@
   border-color: transparent;
   background-color: rgba(244, 247, 254, 1);
 }
-.adminpage-text134 {
+.adminpage-text120 {
   top: 10px;
   left: 12px;
   color: rgba(66, 24, 255, 1);
@@ -2674,7 +2452,7 @@
   position: absolute;
   border-color: transparent;
 }
-.adminpage-text136 {
+.adminpage-text122 {
   top: 10px;
   left: 12px;
   color: rgba(255, 255, 255, 1);
@@ -2707,7 +2485,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text138 {
+.adminpage-text124 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -2740,7 +2518,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text139 {
+.adminpage-text125 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -2773,7 +2551,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text140 {
+.adminpage-text126 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -2806,7 +2584,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text141 {
+.adminpage-text127 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -2839,7 +2617,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text142 {
+.adminpage-text128 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -2872,7 +2650,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text143 {
+.adminpage-text129 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -2905,7 +2683,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text144 {
+.adminpage-text130 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -2938,7 +2716,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text145 {
+.adminpage-text131 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -2971,7 +2749,7 @@
   border-color: transparent;
   border-radius: 40px;
 }
-.adminpage-text146 {
+.adminpage-text132 {
   top: 10px;
   left: 12px;
   color: rgba(163, 174, 208, 1);
@@ -3048,7 +2826,7 @@
   position: absolute;
   border-color: transparent;
 }
-.adminpage-text147 {
+.adminpage-text133 {
   top: 12px;
   left: 80px;
   color: rgba(43, 54, 116, 1);
@@ -3066,7 +2844,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-text149 {
+.adminpage-text135 {
   top: 37px;
   left: 80px;
   color: rgba(163, 174, 208, 1);
@@ -3114,7 +2892,7 @@
   position: absolute;
   border-color: transparent;
 }
-.adminpage-text151 {
+.adminpage-text137 {
   top: 12px;
   left: 80px;
   color: rgba(43, 54, 116, 1);
@@ -3132,7 +2910,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-text153 {
+.adminpage-text139 {
   top: 37px;
   left: 80px;
   color: rgba(163, 174, 208, 1);
@@ -3180,7 +2958,7 @@
   position: absolute;
   border-color: transparent;
 }
-.adminpage-text155 {
+.adminpage-text141 {
   top: 12px;
   left: 80px;
   color: rgba(43, 54, 116, 1);
@@ -3198,7 +2976,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.adminpage-text157 {
+.adminpage-text143 {
   top: 37px;
   left: 80px;
   color: rgba(163, 174, 208, 1);
@@ -3245,7 +3023,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text159 {
+.adminpage-text145 {
   color: rgba(43, 54, 116, 1);
   height: auto;
   position: absolute;
@@ -3312,7 +3090,7 @@
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 1);
 }
-.adminpage-icon08 {
+.adminpage-icon06 {
   top: 29px;
   left: 20px;
   width: 91px;
@@ -3334,7 +3112,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-icon09 {
+.adminpage-icon07 {
   top: 0px;
   left: 0px;
   width: 91px;
@@ -3363,7 +3141,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text161 {
+.adminpage-text147 {
   color: rgba(43, 54, 116, 1);
   height: auto;
   position: absolute;
@@ -3377,7 +3155,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-text166 {
+.adminpage-text152 {
   top: 81px;
   left: 1px;
   color: rgba(163, 174, 208, 1);
@@ -3449,7 +3227,7 @@
   justify-content: flex-start;
   background-color: rgba(66, 24, 255, 1);
 }
-.adminpage-text168 {
+.adminpage-text154 {
   top: 11px;
   left: 142px;
   width: 40px;
@@ -3471,7 +3249,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text169 {
+.adminpage-text155 {
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -3581,7 +3359,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text171 {
+.adminpage-text157 {
   color: rgba(43, 54, 116, 1);
   height: auto;
   position: absolute;
@@ -3624,7 +3402,7 @@
   height: 24px;
   position: absolute;
 }
-.adminpage-text173 {
+.adminpage-text159 {
   left: 34px;
   color: rgba(163, 174, 208, 1);
   height: auto;
@@ -3774,7 +3552,7 @@
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 1);
 }
-.adminpage-precentage2 {
+.adminpage-precentage1 {
   top: 30px;
   left: 307px;
   width: 60px;
@@ -3796,7 +3574,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text175 {
+.adminpage-text161 {
   left: 18px;
   color: rgba(5, 205, 153, 1);
   height: auto;
@@ -3863,7 +3641,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text177 {
+.adminpage-text163 {
   color: rgba(163, 174, 208, 1);
   width: 114px;
   height: auto;
@@ -3878,7 +3656,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-text179 {
+.adminpage-text165 {
   top: 25px;
   color: rgba(43, 54, 116, 1);
   height: auto;
@@ -3893,7 +3671,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-text181 {
+.adminpage-text167 {
   top: 41px;
   left: 88px;
   color: rgba(163, 174, 208, 1);
@@ -4019,7 +3797,7 @@
   flex-shrink: 0;
   border-color: transparent;
 }
-.adminpage-text183 {
+.adminpage-text169 {
   top: 11px;
   left: 42px;
   width: 44px;
@@ -4041,7 +3819,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text184 {
+.adminpage-text170 {
   color: rgba(142, 154, 185, 1);
   height: auto;
   position: absolute;
@@ -4162,7 +3940,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text186 {
+.adminpage-text172 {
   top: 3px;
   left: 36px;
   color: rgba(163, 174, 208, 1);
@@ -4178,7 +3956,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-icon10 {
+.adminpage-icon08 {
   top: 6px;
   left: 0px;
   width: 24px;
@@ -4214,7 +3992,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text188 {
+.adminpage-text174 {
   top: 3px;
   left: 36px;
   color: rgba(163, 174, 208, 1);
@@ -4230,7 +4008,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-icon11 {
+.adminpage-icon09 {
   top: 6px;
   left: 0px;
   width: 24px;
@@ -4266,7 +4044,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text190 {
+.adminpage-text176 {
   top: 3px;
   left: 36px;
   color: rgba(163, 174, 208, 1);
@@ -4282,7 +4060,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-icon12 {
+.adminpage-icon10 {
   top: 6px;
   left: 0px;
   width: 24px;
@@ -4318,7 +4096,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text192 {
+.adminpage-text178 {
   top: 3px;
   left: 38px;
   color: rgba(163, 174, 208, 1);
@@ -4334,7 +4112,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-icon13 {
+.adminpage-icon11 {
   top: 4px;
   left: 0px;
   width: 28px;
@@ -4370,10 +4148,10 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text194 {
+.adminpage-text180 {
   top: 3px;
   left: 36px;
-  color: rgba(163, 174, 208, 1);
+  color: rgb(163, 174, 208);
   height: auto;
   position: absolute;
   font-size: 16px;
@@ -4386,7 +4164,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-icon14 {
+.adminpage-icon12 {
   top: 6px;
   left: 0px;
   width: 24px;
@@ -4422,7 +4200,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text196 {
+.adminpage-text184 {
   top: 3px;
   left: 36px;
   color: rgba(43, 54, 116, 1);
@@ -4438,7 +4216,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.adminpage-icon15 {
+.adminpage-icon13 {
   top: 6px;
   left: 0px;
   width: 24px;
@@ -4476,7 +4254,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text198 {
+.adminpage-text186 {
   top: 0px;
   left: 0px;
   width: 181px;
@@ -4496,7 +4274,7 @@
   justify-content: flex-start;
   background-color: transparent;
 }
-.adminpage-text199 {
+.adminpage-text187 {
   color: rgb(43, 54, 116);
   height: auto;
   position: absolute;
@@ -4554,7 +4332,7 @@
   .adminpage-frame11 {
     width: 70%;
   }
-  .adminpage-text051 {
+  .adminpage-text037 {
     font-size: 20px;
   }
   .adminpage-consumptionper-day {
