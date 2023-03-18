@@ -20,7 +20,7 @@
 .adminprofile-main-dashboard {
   top: 49px;
   left: 290px;
-  width: 1610px;
+  width: 60%;
   height: 1081px;
   display: flex;
   padding: 0;
@@ -1225,7 +1225,7 @@
   position: absolute;
 }
 .adminprofile-large-dropzone2 {
-  width: 736px;
+  width: 550px;
   height: 100%;
   display: flex;
   overflow: hidden;
