@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "parcel-bundler": "^1.6.1"
+    "apexcharts": "^3.37.2",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "nodemon": "^2.0.22",
+    "tailwindcss": "^3.2.7"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "scripts": {
+    "now": "nodemon main.js",
+    "b": "webpack ",
+    "go": "tailwindcss -i ./input.css -o ./main.css",
+    "wa": "tailwindcss -i ./input.css -o ./main.css --watch",
+    "start": "node main.js"
+  }
 }
