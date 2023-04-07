@@ -2,14 +2,11 @@
 <html lang="en">
   <head>
     <title>LBTVUG</title>
-    <meta property="og:title" content="Sympathetic Quaint Yak" />
+    <meta property="og:title" content="LBTVUG" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
+    
     <style data-tag="default-style-sheet">
       html {
         font-family: Inter;
@@ -56,46 +53,42 @@
     <!--This is the head section-->
     <!-- <style> ... </style> -->
     <link rel="stylesheet" href="./style.css" />
+    <link href="./home.css" rel="stylesheet" />
   </head>
   <body>
-    <div>
-      <link href="./home.css" rel="stylesheet" />
+    <nav class="flex h-9 items-center justify-between" aria-label="Global">
+      <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <img class="h-20" src="/public/logo1765-fz9p.svg" alt="">
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button id = "close"class="block hamburger md:hidden focus:outline-none">
+          <span class = " dark:bg-white hamburger-top"></span>
+          <span class = " dark:bg-white hamburger-middle"></span>
+          <span class = "dark:bg-white hamburger-bottom"></span>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Home</a>
 
+        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Stories</a>
+
+        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">LBTV LIVE</a>
+
+        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Latest Movies</a>
+      </div>
+      <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
+        
+      </div>
+    </nav>
       <div class="home-container">
         <div class="desktop1-desktop1">
-          <img
-            alt="Ellipse164"
-            src="/public/ellipse164-xs0g-1100w.png"
-            class="desktop1-ellipse1"
-          />
-          <img
-            alt="Rectangle113"
-            src="/public/rectangle113-w7ir-600h.png"
-            class="desktop1-rectangle1"
-          />
-          <img
-            alt="bgimageweather62"
-            src="/public/bgimageweather62-n1lm-800h.png"
-            class="desktop1-bgimageweather"
-          />
-          <span class="desktop1-text"><span>Good Morning</span></span>
-          <img
-            alt="Rectangle234"
-            src="/public/rectangle234-ry7r-1400w.png"
-            class="desktop1-rectangle2"
-          />
-          <img
-            alt="logo1765"
-            src="/public/logo1765-fz9p.svg"
-            class="desktop1-logo1"
-          />
+          <h1 class="desktop1-text text-black"><span>Good Morning</span></h1>
           <span class="desktop1-text002">
-            <span class="desktop1-text003">Upcoming Perfor</span>
-            <span class="desktop1-text004">
-              <span>mance</span>
-              <br />
-              <span></span>
-            </span>
+            <h2 class="">Upcoming Performnce</h2>
+            <br/>
             <span>Time Remaining</span>
           </span>
           <div class="desktop1-live">
@@ -104,61 +97,11 @@
               src="/public/rectangle59256-7i5f-1500w.png"
               class="desktop1-rectangle5"
             />
-            <div class="desktop1-logo3">
-              <img
-                alt="Rectangle4888"
-                src="/public/rectangle4888-waoe-1600w.png"
-                class="desktop1-rectangle4"
-              />
-              <img
-                alt="Vector8237"
-                src="/public/vector8237-u0vr.svg"
-                class="desktop1-vector"
-              />
-              <img
-                alt="Vector8238"
-                src="/public/vector8238-rktk.svg"
-                class="desktop1-vector01"
-              />
-              <img
-                alt="Vector8239"
-                src="/public/vector8239-wjz.svg"
-                class="desktop1-vector02"
-              />
-              <img
-                alt="Vector8240"
-                src="/public/vector8240-ufus.svg"
-                class="desktop1-vector03"
-              />
-              <img
-                alt="Vector8243"
-                src="/public/vector8243-dmf9.svg"
-                class="desktop1-vector04"
-              />
-              <img
-                alt="Vector8244"
-                src="/public/vector8244-reim.svg"
-                class="desktop1-vector05"
-              />
-              <img
-                alt="Vector8245"
-                src="/public/vector8245-y3l4.svg"
-                class="desktop1-vector06"
-              />
-              <img
-                alt="Vector8246"
-                src="/public/vector8246-xm6.svg"
-                class="desktop1-vector07"
-              />
+            <div class="desktop1-logo3">     
               <img
                 alt="Vector8247"
                 src="/public/vector8247-dgzq.svg"
                 class="desktop1-vector08"
-              />
-              <img
-                alt="Vector8248"
-                src="/public/vector8248-2wxs.svg"
-                class="desktop1-vector09"
               />
               <img
                 alt="logo28222"
@@ -168,11 +111,6 @@
             </div>
             <span class="desktop1-text009"><span>live Now</span></span>
           </div>
-          <img
-            alt="Rectangle3650"
-            src="/public/rectangle3650-fit8-600h.png"
-            class="desktop1-rectangle3"
-          />
           <img
             alt="Vector11091"
             src="/public/vector11091-98g.svg"
@@ -439,10 +377,5 @@
           />
         </div>
       </div>
-    </div>
-    <script
-      data-section-id="navbar"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
   </body>
 </html>

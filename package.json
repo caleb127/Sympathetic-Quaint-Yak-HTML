@@ -12,8 +12,8 @@
   "scripts": {
     "now": "nodemon main.js",
     "b": "webpack ",
-    "go": "tailwindcss -i ./input.css -o ./main.css",
-    "wa": "tailwindcss -i ./input.css -o ./main.css --watch",
+    "go": "tailwindcss -i ./home2.css -o ./home.css",
+    "wa": "tailwindcss -i ./home2.css -o ./home.css --watch",
     "start": "node main.js"
   }
 }
