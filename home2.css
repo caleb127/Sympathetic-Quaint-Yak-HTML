@@ -12,29 +12,42 @@
     border-color: transparent;
     background-color: rgba(255, 255, 255, 1);
   }
-  .desktop1-ellipse1 {
-    top: 353px;
-    left: 654px;
-    width: 1077px;
-    height: 1129px;
-    position: absolute;
-    border-color: transparent;
+  html {
+    font-family: Inter;
+    font-size: 16px;
   }
-  .desktop1-rectangle1 {
-    top: 0px;
-    left: 0px;
-    width: 1440px;
-    height: 502px;
-    position: absolute;
-    border-color: transparent;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
   }
-  .desktop1-bgimageweather {
-    top: 8px;
-    left: 20px;
-    width: 1420px;
-    height: 722px;
-    position: absolute;
-    border-color: transparent;
+  .reveal {
+    visibility: hidden;
+    position: relative;
+    width: 80%;
+    height: 80%;
+    max-width: 500px;
+    overflow: hidden;
+  }
+  body {
+    font-weight: 400;
+    font-style:normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: var(--dl-color-gray-black);
+    background-color: var(--dl-color-gray-white);
+
+  }
+  .moring{
+    top:40rem;
+    left:40rem;
+    position: relative;
   }
   .desktop1-text {
     top: 353px;
@@ -109,32 +122,16 @@ a{
     justify-content: flex-start;
     background-color: transparent;
   }
-  .desktop1-rectangle5 {
-    top: 118px;
-    left: 114px;
-    width: 1430px;
-    height: 450px;
-    position: absolute;
-    border-color: transparent;
-  }
   .desktop1-logo3 {
     top: 0px;
     left: 0px;
-    width: 559px;
-    height: 524px;
+    width: 100%;
+    height: 100%;
     display: flex;
     overflow: hidden;
     position: absolute;
     align-items: flex-start;
     flex-shrink: 0;
-    border-color: transparent;
-  }
-  .desktop1-rectangle4 {
-    top: 0px;
-    left: -66px;
-    width: 1528px;
-    height: 568px;
-    position: absolute;
     border-color: transparent;
   }
   .desktop1-vector {
@@ -208,8 +205,8 @@ a{
     position: absolute;
   }
   .desktop1-logo2 {
-    top: 120.56637573242188px;
-    left: 46.39004135131836px;
+    top: 20px;
+    left: 46px;
     width: 559px;
     height: 524px;
     position: absolute;
@@ -230,21 +227,6 @@ a{
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
-  }
-  .desktop1-rectangle3 {
-    top: 1214px;
-    left: -5px;
-    width: 1470px;
-    height: 520px;
-    position: absolute;
-    border-color: transparent;
-  }
-  .desktop1-vector1 {
-    top: 1036px;
-    right: 36px;
-    width: 702px;
-    height: 828px;
-    position: absolute;
   }
   .desktop1-text011 {
     top: 1324px;
@@ -372,17 +354,9 @@ a{
   .desktop1-logo21 {
     top: 3290px;
     left: 361px;
-    width: 581px;
-    height: 545px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-  }
-  .desktop1-rectangle15 {
-    top: 5032px;
-    left: 0px;
-    width: 1440px;
-    height: 624px;
-    position: absolute;
-    border-color: transparent;
   }
   .desktop1-text026 {
     top: 5056px;
@@ -402,14 +376,6 @@ a{
     margin-right: 0;
     margin-bottom: 0;
     text-decoration: none;
-  }
-  .desktop1-rectangle16 {
-    top: 5032px;
-    left: 516px;
-    width: 924px;
-    height: 624px;
-    position: absolute;
-    border-color: transparent;
   }
   .desktop1-th1 {
     top: 5032px;
@@ -1488,151 +1454,6 @@ a{
     flex-shrink: 0;
     border-color: transparent;
   }
-  .desktop1-play2 {
-    top: 11.210551261901855px;
-    left: 14.947403907775879px;
-    width: 54.729164123535156px;
-    height: 57.687374114990234px;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
-  .desktop1-vector12 {
-    top: 0px;
-    left: 0px;
-    width: 55px;
-    height: 58px;
-    position: absolute;
-  }
-  .desktop1-hicon-bold-play3 {
-    top: 4326px;
-    left: 113px;
-    width: 71px;
-    height: 71px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-  }
-  .desktop1-play3 {
-    top: 11.210551261901855px;
-    left: 14.947403907775879px;
-    width: 54.729164123535156px;
-    height: 57.687374114990234px;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
-  .desktop1-vector13 {
-    top: 0px;
-    left: 0px;
-    width: 55px;
-    height: 58px;
-    position: absolute;
-  }
-  .desktop1-hicon-linear-heart1 {
-    top: 3863px;
-    left: 1255px;
-    width: 89px;
-    height: 91px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-  }
-  .desktop1-heart1 {
-    top: 11.375px;
-    left: 7.416666507720947px;
-    width: 74.16669464111328px;
-    height: 68.25px;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
-  .desktop1-vector14 {
-    top: 0px;
-    left: 0px;
-    width: 74px;
-    height: 68px;
-    position: absolute;
-  }
-  .desktop1-hicon-linear-heart3 {
-    top: 4316px;
-    left: 1253px;
-    width: 89px;
-    height: 91px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-  }
-  .desktop1-heart11 {
-    top: 11.375px;
-    left: 7.416666507720947px;
-    width: 74.16669464111328px;
-    height: 68.25px;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
   .desktop1-vector15 {
     top: 0px;
     left: 0px;
@@ -1640,40 +1461,7 @@ a{
     height: 68px;
     position: absolute;
   }
-  .desktop1-hicon-linear-heart2 {
-    top: 4043px;
-    left: 1257px;
-    width: 89px;
-    height: 91px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-  }
-  .desktop1-heart12 {
-    top: 11.375px;
-    left: 7.416666507720947px;
-    width: 74.16669464111328px;
-    height: 68.25px;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
+  
   .desktop1-vector16 {
     top: 0px;
     left: 0px;
@@ -1681,61 +1469,17 @@ a{
     height: 68px;
     position: absolute;
   }
-  .desktop1-hicon-linear-heart4 {
-    top: 4496px;
-    left: 1255px;
-    width: 89px;
-    height: 91px;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-  }
-  .desktop1-heart13 {
-    top: 11.375px;
-    left: 7.416666507720947px;
-    width: 74.16669464111328px;
-    height: 68.25px;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
   .desktop1-vector17 {
     top: 0px;
     left: 0px;
     width: 74px;
     height: 68px;
     position: absolute;
-  }
-  .desktop1-downloadremovebgpreview1 {
-    top: 1173px;
-    right: 51px;
-    width: 743px;
-    height: 526px;
-    position: absolute;
-    border-color: transparent;
-  }
-  
+  } 
   .home-container {
     width: 100%;
     display: flex;
     overflow: auto;
-    min-height: 100vh;
     align-items: center;
     flex-direction: column;
     justify-content: center;
