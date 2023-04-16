@@ -81,24 +81,24 @@
     transition: transform 1000ms ease, opacity 1000ms ease;
     overflow: hidden;
   }
-  .app__bg__image img {
+  #bg1,#bg2,#bg3{
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .app__bg__image.current--image {
+  #bg1{
     opacity: 1;
     --image-translate-offset: 0;
   }
-  .app__bg__image.previous--image, .app__bg__image.next--image {
+  #bg3{
     opacity: 0;
   }
-  .app__bg__image.previous--image {
+  #bg2{
     --image-translate-offset: -25%;
   }
-  .app__bg__image.next--image {
-    --image-translate-offset: 25%;
-  }
+#bg3{
+  --image-translate-offset: 25%;
+}
   .cardList {
     position: absolute;
     width: calc(3 * var(--card-width));

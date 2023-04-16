@@ -50,10 +50,8 @@ function swapCards(direction) {
 		currentCardEl.style.zIndex = "50";
 		currentBgImageEl.style.zIndex = "-2";
 		
-			console.log(bg)
-			if(currentCardEl.classList.contains("current--card")){
-				container.style.backgroundImage=`url(${imgs.src})`
-			}
+			console.log(bg1)
+		
 		
 		if (direction === "right") {
 			bg2.style.zIndex="20"
