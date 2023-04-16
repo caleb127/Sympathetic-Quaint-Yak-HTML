@@ -1,5 +1,6 @@
 
 const { gsap, imagesLoaded } = window;
+const imgs = document.querySelector(".current--card .card__img img")
 
 const buttons = {
 	prev: document.querySelector(".btn--left"),
@@ -14,6 +15,7 @@ buttons.next.addEventListener("click", () => swapCards("right"));
 
 buttons.prev.addEventListener("click", () => swapCards("left"));
 const container = document.querySelector(".app")
+let currentBgImageEl = appBgContainerEl.querySelector(".current--image");
 function swapCards(direction) {
 	const currentCardEl = cardsContainerEl.querySelector(".current--card");
 	const previousCardEl = cardsContainerEl.querySelector(".previous--card");
@@ -40,7 +42,11 @@ function swapCards(direction) {
 
 		currentCardEl.style.zIndex = "50";
 		currentBgImageEl.style.zIndex = "-2";
-       const imgs = document.querySelector(".current--card .card--img img")
+		window.addEventListener("load",()=>{
+			if(currentBgImageEl.classList.contains("current--card")){
+				container.style.backgroundImage=`url(${currentBgImageEl})`
+			}
+		})
 		if (direction === "right") {
 			previousCardEl.style.zIndex = "20";
 			nextCardEl.style.zIndex = "30";
@@ -50,7 +56,7 @@ function swapCards(direction) {
 			currentCardEl.classList.add("previous--card");
 			previousCardEl.classList.add("next--card");
 			nextCardEl.classList.add("current--card");
-            container.style.backgroundImage=`url(${imgs.src})`
+            
 			currentBgImageEl.classList.add("previous--image");
 			previousBgImageEl.classList.add("next--image");
 			nextBgImageEl.classList.add("current--image");
@@ -71,6 +77,8 @@ function swapCards(direction) {
 		}
 	}
 }
+
+
 
 function changeInfo(direction) {
 	let currentInfoEl = cardInfosContainerEl.querySelector(".current--info");
