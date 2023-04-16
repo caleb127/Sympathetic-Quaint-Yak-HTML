@@ -17,6 +17,9 @@ buttons.prev.addEventListener("click", () => swapCards("left"));
 const container = document.querySelector(".app")
 let currentBgImageEl = appBgContainerEl.querySelector(".current--image");
 function swapCards(direction) {
+	const bg1 =document.getElementById("bg1") 
+	const bg2 =document.getElementById("bg2")
+	const bg3 =document.getElementById("bg3")
 	const currentCardEl = cardsContainerEl.querySelector(".current--card");
 	const previousCardEl = cardsContainerEl.querySelector(".previous--card");
 	const nextCardEl = cardsContainerEl.querySelector(".next--card");
@@ -32,36 +35,44 @@ function swapCards(direction) {
 	removeCardEvents(currentCardEl);
 
 	function swapCardsClass() {
+	
 		currentCardEl.classList.remove("current--card");
+        bg1.removeAttribute("id")
+		bg2.removeAttribute("id")
+		bg3.removeAttribute("id")
 		previousCardEl.classList.remove("previous--card");
 		nextCardEl.classList.remove("next--card");
 
 		currentBgImageEl.classList.remove("current--image");
 		previousBgImageEl.classList.remove("previous--image");
 		nextBgImageEl.classList.remove("next--image");
-
+        bg1.style.zIndex="-2"
 		currentCardEl.style.zIndex = "50";
 		currentBgImageEl.style.zIndex = "-2";
-		window.addEventListener("load",()=>{
-			if(currentBgImageEl.classList.contains("current--card")){
-				container.style.backgroundImage=`url(${currentBgImageEl})`
+		
+			console.log(bg)
+			if(currentCardEl.classList.contains("current--card")){
+				container.style.backgroundImage=`url(${imgs.src})`
 			}
-		})
+		
 		if (direction === "right") {
+			bg2.style.zIndex="20"
+			bg3.style.zIndex="30"
 			previousCardEl.style.zIndex = "20";
 			nextCardEl.style.zIndex = "30";
-
 			nextBgImageEl.style.zIndex = "-1";
-
 			currentCardEl.classList.add("previous--card");
 			previousCardEl.classList.add("next--card");
 			nextCardEl.classList.add("current--card");
-            
+			bg1.setAttribute("id","bg3")
+            bg2.setAttribute("id","bg2")
+			bg3.setAttribute("id","bg1")
 			currentBgImageEl.classList.add("previous--image");
 			previousBgImageEl.classList.add("next--image");
 			nextBgImageEl.classList.add("current--image");
 			
 		} else if (direction === "left") {
+			
 			previousCardEl.style.zIndex = "30";
 			nextCardEl.style.zIndex = "20";
 
@@ -70,7 +81,9 @@ function swapCards(direction) {
 			currentCardEl.classList.add("next--card");
 			previousCardEl.classList.add("current--card");
 			nextCardEl.classList.add("previous--card");
-
+            bg1.setAttribute("id","bg3")
+			bg2.setAttribute("id","bg1")
+			bg3.setAttribute("id","bg2")
 			currentBgImageEl.classList.add("next--image");
 			previousBgImageEl.classList.add("current--image");
 			nextBgImageEl.classList.add("previous--image");
