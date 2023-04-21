@@ -35,24 +35,19 @@ function swapCards(direction) {
 	removeCardEvents(currentCardEl);
 
 	function swapCardsClass() {
-	
+	    const cont = document.querySelector(".container")
 		currentCardEl.classList.remove("current--card");
         bg1.removeAttribute("id")
 		bg2.removeAttribute("id")
 		bg3.removeAttribute("id")
 		previousCardEl.classList.remove("previous--card");
 		nextCardEl.classList.remove("next--card");
-
 		currentBgImageEl.classList.remove("current--image");
 		previousBgImageEl.classList.remove("previous--image");
 		nextBgImageEl.classList.remove("next--image");
         bg1.style.zIndex="-2"
 		currentCardEl.style.zIndex = "50";
 		currentBgImageEl.style.zIndex = "-2";
-		
-			console.log(bg1)
-		
-		
 		if (direction === "right") {
 			bg2.style.zIndex="20"
 			bg3.style.zIndex="30"
@@ -68,6 +63,7 @@ function swapCards(direction) {
 			currentBgImageEl.classList.add("previous--image");
 			previousBgImageEl.classList.add("next--image");
 			nextBgImageEl.classList.add("current--image");
+			cont.style.backgroundImage = `url(${bg1.src})`
 			
 		} else if (direction === "left") {
 			

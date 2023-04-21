@@ -136,14 +136,6 @@
   position: static;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.top-80 {
-  top: 20rem;
-}
-
 .-m-1 {
   margin: -0.25rem;
 }
