@@ -6,35 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
+    <script src = "https://kit.fontawesome.com/bc7e419adf.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
     <script src="morph.js"></script>
-    
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font"
-    />
+  
     <link href="./home.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="flex h-9 items-center justify-between" aria-label="Global">
+    <nav class="flex h-9 items-center justify-between shadow-lg sticky py-2 w-screen px-4 rounded-2xl backdrop-blur-md " aria-label="Global">
       <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
@@ -48,120 +27,98 @@
           <span class = "dark:bg-white hamburger-bottom"></span>
         </button>
       </div>
-      <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+      <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-14">
         <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Home</a>
-
         <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Stories</a>
-
-        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">LBTV LIVE</a>
-
-        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Latest Movies</a>
+        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Life Style </a>
+        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Podcasts </a>
+        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Fashion</a>
+        <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Movie Review</a>
       </div>
       <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
         
       </div>
     </nav>
-      <div class="home-container">
-        <div class="desktop1-desktop1">
-          <div class = "container">
-          <div class="app">
-            <div class="cardList">
-              <button class="cardList__btn btn btn--left">
-                <div class="icon">
-                  <svg>
-                    <use xlink:href="#arrow-left"></use>
-                  </svg>
-                </div>
-              </button>  
-              <div class="cards__wrapper">
-                <div class="card current--card">
-                  <div class="card__image">
-                    <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
-                  </div>
-                </div>  
-                <div class="card next--card">
-                  <div class="card__image">
-                    <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
-                  </div>
-                </div>  
-                <div class="card previous--card">
-                  <div class="card__image">
-                    <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
-                  </div>
-                </div>
-              </div>  
-              <button class="cardList__btn btn btn--right">
-                <div class="icon">
-                  <svg>
-                    <use xlink:href="#arrow-right"></use>
-                  </svg>
-                </div>
-              </button>
-            </div>  
-            <div class="infoList">
-              <div class="info__wrapper">
-                <div class="info current--info">
-                  <h1 class="text name">Highlands</h1>
-                  <h4 class="text location">Scotland</h4>
-                  <p class="text description">The mountains are calling</p>
-                </div>  
-                <div class="info next--info">
-                  <h1 class="text name">Machu Pichu</h1>
-                  <h4 class="text location">Peru</h4>
-                  <p class="text description">Adventure is never far away</p>
-                </div> 
-              <div class="info previous--info">
-                  <h1 class="text name">Chamonix</h1>
-                  <h4 class="text location">France</h4>
-                  <p class="text description">Let your dreams come true</p>
-                </div>
-              </div>
-            </div>    
-            <div class="app__bg bg">
-              <div class="app__bg__image current--image current-bg1">
-                <img id= "bg1"src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
-              </div>
-              <div class="app__bg__image next--image current-bg2">
-                <img id="bg2"src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
-              </div>
-              <div class="app__bg__image previous--image current-bg3">
-                <img id="bg3"src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
-              </div>
-            </div>
-          </div>    
-          
-          <div class="loading__wrapper">
-            <div class="loader--text">Loading...</div>
-            <div class="loader">
-              <span></span>
-            </div>
-              
-          <svg class="icons" style="display: none;">
-            <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-              <polyline points='328 112 184 256 328 400'
-                     style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-            </symbol>
-            <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
-              <polyline points='184 112 328 256 184 400'
-                     style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
-            </symbol>
-          </svg>
+    <div class="wrapper">
+      <input checked type=radio name="slider" id="slide1" />
+      <input type=radio name="slider" id="slide2" />
+      <input type=radio name="slider" id="slide3" />
+      <input type=radio name="slider" id="slide4" />
+      <input type=radio name="slider" id="slide5" />
+    
+      <div class="slider-wrapper">
+        <div class=inner>
+          <article>
+            <div class="info top-left">
+              <h3>Malacca</h3></div>
+            <img src="https://farm9.staticflickr.com/8059/28286750501_dcc27b1332_h_d.jpg" />
+          </article>
+    
+          <article>
+            <div class="info bottom-right">
+              <h3>Cameron Highland</h3></div>
+            <img src="https://farm6.staticflickr.com/5812/23394215774_b76cd33a87_h_d.jpg" />
+          </article>
+    
+          <article>
+            <div class="info bottom-left">
+              <h3>New Delhi</h3></div>
+            <img src="https://farm8.staticflickr.com/7455/27879053992_ef3f41c4a0_h_d.jpg" />
+          </article>
+    
+          <article>
+            <div class="info top-right">
+              <h3>Ladakh</h3></div>
+            <img src="https://farm8.staticflickr.com/7367/27980898905_72d106e501_h_d.jpg" />
+          </article>
+    
+          <article>
+            <div class="info bottom-left">
+              <h3>Nubra Valley</h3></div>
+            <img src="https://farm8.staticflickr.com/7356/27980899895_9b6c394fec_h_d.jpg" />
+          </article>
+        </div>
+        <!-- .inner -->
+      </div>
+      <!-- .slider-wrapper -->
+    
+      <div class="slider-prev-next-control">
+        <label for=slide1></label>
+        <label for=slide2></label>
+        <label for=slide3></label>
+        <label for=slide4></label>
+        <label for=slide5></label>
+      </div>
+      <!-- .slider-prev-next-control -->
+    
+      <div class="slider-dot-control">
+        <label for=slide1></label>
+        <label for=slide2></label>
+        <label for=slide3></label>
+        <label for=slide4></label>
+        <label for=slide5></label>
+      </div>
+    </div>
+         
         </div>
       </div>
             <h1 class="font-bold  sm:text-center perform text-9xl">Upcoming Performnce</h1>
             <h3 class = "text-center text-8xl">06000</h3>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
-             
-            <h4 class="">live Now</h4>
+            <button class = "bg-orange-500 rounded-xl py-2 px-2 text-white font-outfit font-bold">GET NOTIFIED</button>
+          <div class="recentposts text-center">
+            <h1 class = "text-9xl text-center">RECENT POSTS</h1>
+            <h6 class="text-xl"><a href ="#">Lorem Ipsum</a></h6>
+            <h6 class="text-xl"><a href ="#">Lorem Ipsum</a></h6>
+            <h6 class="text-xl"><a href ="#">Lorem Ipsum</a></h6>
+            <h6 class="text-xl"><a href ="#">Lorem Ipsum</a></h6>
           </div>
-          <div class="recentposts">
-            <h1 class = "text-20xl text-center">RECENT POSTS</h1>
-            <h6 class="">Lorem Ipsum</h6>
-            <h6 class="">Lorem Ipsum</h6>
-            <h6 class="">Lorem Ipsum</h6>
-            <h6 class="">Lorem Ipsum</h6>
-          </div>
-      
+          <div id = "podcasts"class ="">
+            <h1 id ="ttp"class="text-center">LBTVUG PODCASTS</h1>
+           <h1 class = "float-right right-36">THE DO'S AND DONT'S OF DJ LUWOMBO BOY</h1>
+           <div class ="im w-80 h-40" id="bbg">
+            <img class = "object-cover w-fit"id = "pdimg"src ="https://cdn.howwe.ug/_arts_/dj-luwombo-boy_1674422501.jpg">
+           </div>
+          </div>     
   </body>
   <script src="/gsap-member/gsap-member/minified/gsap.min.js"></script>
   <script src="home.js"></script>
