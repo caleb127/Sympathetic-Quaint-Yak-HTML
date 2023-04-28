@@ -26,7 +26,9 @@ module.exports = {
       "2xl": "48px",
       "3xl": "60px",
       "4xl": "96px",
+      "20xl":"120px"
     },
+    
   },
   corePlugins: { preflight: false },
 };
