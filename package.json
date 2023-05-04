@@ -5,6 +5,7 @@
   "dependencies": {
     "@barba/core": "^2.9.7",
     "apexcharts": "^3.37.2",
+    "caniuse-lite": "^1.0.30001482",
     "express": "^4.18.2",
     "helmet": "^6.0.1",
     "nodemon": "^2.0.22",
