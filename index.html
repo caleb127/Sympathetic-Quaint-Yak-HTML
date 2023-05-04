@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
+    <script src='https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js'></script>
     <script src = "https://kit.fontawesome.com/bc7e419adf.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
     <script src="morph.js"></script>
   
     <link href="./home.css" rel="stylesheet" />
@@ -113,19 +117,24 @@
             <h6 class="text-xl"><a href ="#">Lorem Ipsum</a></h6>
           </div>
           <h1 id ="ttp"class="text-center">LBTVUG PODCASTS</h1>
-          <div id = "podcasts"class ="">
-            <div id ="info"class="absolute  right-36">
-              <h1 class = "  md:text-center md:flex">THE DO'S AND DONT'S OF DJ LUWOMBO BOY</h1>
+          <div id = "podcasts"class ="flex">
+            <div id ="info"class="absolute md:block:text-center right-36">
+              <h1 class = "md:text-center text-white">THE DO'S AND DONT'S OF DJ LUWOMBO BOY</h1>
               <p id = "podp" class="text-left">Your Weekly Fan of Your Favourite DJ </p>
               <p class="font-bold">Episode 1 | <span>April 26,2022</span></p>
-              <button class = "subscribe py-4 px-4 text-bolder rounded-3xl border-none text-white"id="sub">SUBSCRIBE</button>
+              <button class = "subscribe py-4 px-2 text-bolder rounded-3xl border-none text-white"id="sub">SUBSCRIBE</button>
             </div>
            
-           <div class ="im w-80 h-40 left-20" id="bbg">
-            <img class = "object-cover max-w-none"id = "pdimg"src ="https://cdn.howwe.ug/_arts_/dj-luwombo-boy_1674422501.jpg">
+           <div class ="im w-80 h-40 left-20 py-8 px-10" id="bbg">
+            <img class = "object-cover max-w-none rounded-2xl"id = "pdimg"src ="https://cdn.howwe.ug/_arts_/dj-luwombo-boy_1674422501.jpg">
            </div>
           </div>     
+          <div id ="movies" class = "movies">
+            <h2>latest Movies</h2>
+          </div>
   </body>
   <script src="/gsap-member/gsap-member/minified/gsap.min.js"></script>
+  <script src ="/gsap-member/gsap-member/minified/ScrollTrigger.min.js"></script>
+
   <script src="home.js"></script>
 </html>
